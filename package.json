@@ -6,6 +6,7 @@
   "homepage": "https://mairacol.github.io/dogs/",
   "scripts": {
     "start": "vite",
+    "predeploy":"npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
